@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Financial Summit</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <div class="navbar-inner">
+        <div class="logo-section">
+          <img src="blueAnt.png" alt="Blueant Logo" class="logo-img" />
+        </div>
+        <div class="menu-desktop">
+          <div class="menu-items">
+            <button onclick="scrollToSection('home')" class="menu-btn">Home</button>
+            <button onclick="scrollToSection('about')" class="menu-btn">About</button>
+            <button onclick="scrollToSection('speakers')" class="menu-btn">Speakers</button>
+            <button onclick="scrollToSection('schedule')" class="menu-btn">Schedule</button>
+            <button onclick="scrollToSection('event-details')" class="menu-btn">Event Details</button>
+            <button onclick="scrollToSection('register')" class="register-btn">Register Now</button>
+          </div>
+        </div>
+        <div class="menu-mobile-toggle">
+          <button onclick="toggleMenu()" class="menu-toggle-btn" id="menu-toggle">☰</button>
+        </div>
+      </div>
+    </div>
+    <div class="menu-mobile" id="mobile-menu">
+      <button onclick="scrollToSection('home')" class="mobile-menu-btn">Home</button>
+      <button onclick="scrollToSection('about')" class="mobile-menu-btn">About</button>
+      <button onclick="scrollToSection('speakers')" class="mobile-menu-btn">Speakers</button>
+      <button onclick="scrollToSection('schedule')" class="mobile-menu-btn">Schedule</button>
+      <button onclick="scrollToSection('event-details')" class="mobile-menu-btn">Event Details</button>
+      <button onclick="scrollToSection('register')" class="mobile-register-btn">Register Now</button>
+    </div>
+  </nav>
+
+    <section class="hero-section">
+      <div class="hero-content">
+        <h1>
+          <span class="black-text1">Financial Literacy </span>
+          <span class="red-text1">Workshop 2025</span>
+        </h1>
+        <p>
+          The Wealth Code For <span class="blue-text1">GEN Z</span>
+        </p>
+
+        <div class="hero-cards">
+          <div class="info-card">
+            <svg class="icon red" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path d="M8 7V3m8 4V3M3 11h18M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+            <div>
+              <h3>June 18, 2025</h3>
+              <p>11 am to 4:30 pm</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <svg class="icon blue" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path d="M17.657 16.657L13.414 12.414a2 2 0 10-2.828 2.828l4.243 4.243a8 8 0 111.828-1.828z"/></svg>
+            <div>
+              <h3>The Monarch </h3>
+              <p>Indirapuram Habitat Centre</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-buttons">
+          <button class="btn outline-btn" onclick="scrollToSection('speakers')">View Speakers</button>
+        </div>
+      </div>
+    </section>
+
+
+  <!-- About Section -->
+  <section class="about-section" id="about">
+    <div class="about-top">
+      <button class="mission-btn">About Our Mission</button>
+      <h2><span class="black-text">About the</span> <span class="red-text">Summit</span></h2>
+      <p class="about-description">
+        Join us for a transformative two-day event designed to equip young
+        adults with the financial knowledge and skills they need to build a
+        secure future.
+      </p>
+    </div>
+    <div class="about-content">
+      <img src="About.jpg" alt="People in a financial workshop" class="about-img" />
+      <div class="about-cards">
+        <div class="about-card">
+          <div class="icon orange">💰</div>
+          <div>
+            <h4>Smart Money Management</h4>
+            <p>Learn essential budgeting, saving, and spending strategies for long-term financial success and prosperity.</p>
+          </div>
+        </div>
+        <div class="about-card">
+          <div class="icon purple">📈</div>
+          <div>
+            <h4>Investment Fundamentals</h4>
+            <p>Understand the basics of investing, compound interest, and building wealth over time through smart decisions.</p>
+          </div>
+        </div>
+        <div class="about-card">
+          <div class="icon blue">💳</div>
+          <div>
+            <h4>Indian Banking System</h4>
+            <p>Get introduced to how banks work in India, types of accounts, digital banking, and safe banking practices.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
