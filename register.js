@@ -7,7 +7,7 @@ form.addEventListener("submit", function (e) {
     submitBtn.textContent = "Submitting...";
 
     const scriptURL =
-        "https://script.google.com/macros/s/AKfycbwHuSpyS6PAAXRfedcsRcQkdAtgW5oozcO_EOG4AE9nEDKPViz_WhRJau9FqxiWHT5jGg/exec";
+        "https://script.google.com/macros/s/AKfycbz8dRobVhaEaOkxCgiavMjgEwaVDST3FdR80Z5GIjBNqV0nBmhJIvnhlxMBEeO9iGR0/exec";
 
     const formData = new FormData(form);
 
